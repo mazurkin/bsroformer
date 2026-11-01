@@ -31,4 +31,4 @@ bin/bsr.sh
 
 ## cache
 
-demucs downloads the models to `~/.cache/torch/hub/`
+models are downloaded to the "models" subfolder.
