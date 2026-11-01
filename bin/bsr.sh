@@ -20,6 +20,7 @@ export PYTHONWARNINGS="ignore"
 
 exec conda run --no-capture-output --live-stream --name bsroformer \
     bs-roformer-infer \
+        --model "roformer-model-bs-roformer-sw-by-jarredou" \
         --models_dir "${PACKAGE_DIR}/models" \
         --input_folder "${PACKAGE_DIR}/input" \
         --store_dir "${PACKAGE_DIR}/separated"
